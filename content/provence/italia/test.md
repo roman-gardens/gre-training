@@ -1,28 +1,30 @@
 ---
-article-type: "province"
 title: "Test"
-date: 2021-06-30T18:27:38+03:00
+date: 2021-06-30T18:26:41+03:00
 latlon: [ 0, 0 ]
-province_id: PROVINCE_ID
+article_id: ARTICLE_ID
 author: NAME_OF_AUTHOR
 editor: NAME_OF_EDITOR
 draft: true
 ---
 
 # Province
-TESTING
 
-helwla;l dsg <br>
-> ***skhgkasdhgk*** &gt;
+<!--
+[PROVINCE_NAME]({{<relref "..">}})
+-->
 
 ## Province Description
-fvsad
+
 <!-- DESCRIPTION -->
 
 
 # Location
 
-<!-- [Colonia Claudia Ara Agrippinensium (Cologne)](https://pleiades.stoa.org/places/108751) -->
+<!--
+[LOCATION_NAME]({{<relref ".">}}) \
+[LOCATION_NAME (Pleiades)](https://pleiades.stoa.org/places/108751)
+-->
 
 ## Location Description
 
@@ -31,7 +33,9 @@ fvsad
 # Sublocation
 
 <!--
-[AREA WITHIN LOCATION, LIKE “PALATINE HILL”](GEOREFERENCE LINK)
+Regio IX
+
+[AREA WITHIN LOCATION, LIKE "PALATINE HILL"](GEOREFERENCE LINK)
 A sublocation is any area larger than an individual garden, but located within a location. I would always try to include a link to a controlled vocabulary here if possible. This ID may well be different from the Garden ID, e.g., Pompeii versus a Garden in one of the houses which has its own Pleiades ID.
 -->
 
@@ -39,10 +43,55 @@ A sublocation is any area larger than an individual garden, but located within a
 
 <!-- DESCRIPTION -->
 
-# Garden
-<!-- List of gardens in province -->
-<!-- May be left blank for now -->
+# Insula
 
+# House
+
+# Garden
+
+
+<!-- NAME_OF_GARDEN -->
+
+
+## Keywords
+
+<!-- [piscinae](http://vocab.getty.edu/page/aat/300375619), []() -->
+
+## Garden Description
+
+
+## Maps
+
+<!--
+OLD WAY (DO NOT USE)
+![alt_text](../../images/image_name.ext)
+*CAPTION*
+
+NEW WAY ↓↓↓↓
+{{< figure src="../../images/image_name.ext" alt="ALT_TEXT" title="CAPTION" >}}
+-->
+
+## Plans
+
+<!--
+OLD WAY (DO NOT USE)
+![alt_text](../../images/image_name.ext)
+*CAPTION*
+
+NEW WAY ↓↓↓↓
+{{< figure src="../../images/image_name.ext" alt="ALT_TEXT" title="CAPTION" >}}
+-->
+
+## Images
+
+<!--
+OLD WAY (DO NOT USE)
+![alt_text](../../images/image_name.ext)
+*CAPTION*
+
+NEW WAY ↓↓↓↓
+{{< figure src="../../images/image_name.ext" alt="ALT_TEXT" title="CAPTION" >}}
+-->
 
 ## Dates
 <!-- Format: For now, include dates exactly as written in the document. We will revisit the question of date formatting once more data have been collected. -->
@@ -70,13 +119,13 @@ A sublocation is any area larger than an individual garden, but located within a
 
 ## Contributor
 
-<!-- [AUTHOR_NAME](AUTHOR_LINK) -->
-
-### ORCID
-
-<!-- [ORCID](https://orcid.org/ORCID) -->
+<!-- [AUTHOR_NAME](AUTHOR_LINK) (ORCID: [ORCID_ID](https://orcid.org/ORCID_ID)) -->
 
 ## Publication date
 <!-- Format: dd MONTH_NAME yyyy -->
 
 <!-- DATE -->
+
+## Related articles
+
+<!-- Links to other related articles. Leave blank for now -->
