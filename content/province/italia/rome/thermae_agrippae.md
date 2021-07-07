@@ -12,6 +12,8 @@ tags:
  - "gymnasiums"
  - "horti"
  - "thermae"
+categories:
+ - "Italia"
 ---
 
 ## Province

@@ -15,6 +15,8 @@ tags:
  - "porticoes"
  - "temples (buildings)"
  - "triumphal arch"
+categories:
+ - "Italia"
 ---
 
 ## Province
