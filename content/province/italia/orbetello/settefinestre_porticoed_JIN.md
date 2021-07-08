@@ -6,7 +6,7 @@ latlon: [ 0, 0 ]
 province_id: PROVINCE_ID
 author: Emannuelle Papi
 editor: David M. Ratzan
-draft: true
+draft: false
 ---
 # Province
 
