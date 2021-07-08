@@ -1,6 +1,6 @@
 ---
 article-type: "province"
-title: "The Porticoed Garden at Settefinestre"
+title: "The Porticoed Garden at Settefinestre JIN"
 date: 2021-06-29T11:45:50-07:00
 latlon: [ 0, 0 ]
 province_id: PROVINCE_ID
