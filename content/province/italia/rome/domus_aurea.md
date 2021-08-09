@@ -43,7 +43,7 @@ Esquiline Hill, [Esquilinus Mons (Pleiades)](https://pleiades.stoa.org/places/67
 <!-- -->
 ## Garden
 
-Garden of the Domus Aurea \
+Garden of the amazing Domus Aurea \
 [Domus Aurea (Pleiades)](https://pleiades.stoa.org/places/410440793)
 <!-- -->
 ### Keywords
