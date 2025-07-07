@@ -1,9 +1,8 @@
 ---
 title: "Pompeii: status update"
-date: 2021-04-21T10:03:42-04:00
-article_id: ARTICLE_ID
-author: NAME_OF_AUTHOR
-editor: NAME_OF_EDITOR
+date: 2021-04-21
+author: 
+contributor: 
 draft: false
 ---
 

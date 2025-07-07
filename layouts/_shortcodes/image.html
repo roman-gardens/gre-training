@@ -1,0 +1,17 @@
+{{- $file := .Get "file" -}}
+{{- $file = urls.JoinPath "https://raw.githubusercontent.com/roman-gardens/gre-images/main/content/" .Page.Parent.Path $file -}}
+
+{{- $credit  := .Get "credit" -}}
+{{- $caption := .Get "caption" -}}
+{{- $alt     := .Get "alt" -}}
+
+<figure>
+    <img src="{{ $file }}" alt="{{ $alt }}" onclick="fullscreen(this)">
+    <figcaption>
+        {{/* allow HTML links in the caption */}}
+        {{- safeHTML (htmlUnescape $caption) -}}
+        {{- with $credit -}}
+            <div class="credit">Credit: {{ safeHTML (htmlUnescape .) }}</div>
+        {{- end -}}
+    </figcaption>
+</figure>

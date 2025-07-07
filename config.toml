@@ -4,9 +4,6 @@ relativeURLs = false
 languageCode = "en-us"
 title = "Gardens of the Roman Empire"
 theme = "mainroad"
-paginate = "1000"
-# theme = "simpleit-hugo-theme"
-# theme = "book"
 
 publishDir = "docs"
 
@@ -14,70 +11,90 @@ buildDrafts = false
 enableEmoji = true
 enableInlineShortcodes = true
 
+# This prevents diacritics in URLs (as for links to people pages)
+removePathAccents = true
+
+# This forces the "title" function to capitalize EVERY word
+# The default setting "ap" does not capitalize "via"...
+titleCaseStyle = "go"
+
+# This needs to be high to insure .Summary includes the Garden Description
+# This can probably be reduced once the province descriptions are moved out of the garden articles
 summaryLength = 10000
+
+# suppress warnings about having raw HTML in markdown (used for tables, etc.)
+ignoreLogs = ['warning-goldmark-raw-html']
+
 
 [menu]
 
 	[[menu.main]]
-		identifier = "home"
 		name = "Home"
-		url = "/home/"
-		weight = -130
+		pageRef = "/home/"
+		weight = 10
 
 	[[menu.main]]
-		identifier = "about"
 		name = "About"
-		url = "/about/"
-		weight = -120
+		pageRef = "/about/"
+		weight = 20
 
 	[[menu.main]]
-		identifier = "gardens"
 		name = "Gardens"
-		url = "/"
-		weight = -110
+		pageRef = "/place/"
+		weight = 30
 
 	[[menu.main]]
-		identifier = "contributors"
 		name = "People"
-		url = "/contributors/"
-		weight = -100
+		pageRef = "/people/"
+		weight = 40
 
 	[[menu.main]]
-		identifier = "contribute"
+		name = "History"
+		pageRef = "/history/"
+		weight = 50
+
+	[[menu.main]]
 		name = "Join"
-		url = "/contribute/"
-		weight = -90
+		pageRef = "/contribute/"
+		weight = 60
 
 	[[menu.main]]
-		identifier = "blog"
-		name = "News"
-		url = "/blog/"
-		weight = -80
-
-	[[menu.main]]
-		identifier = "citation"
 		name = "How to Cite"
-		url = "/citation/"
-		weight = -70
+		pageRef = "/citation/"
+		weight = 70
 
 
 [Params]
-twitter_cards = true
-images = ["images/landing-page-map-1.png"]
-customCSS = ["css/custom.css"]
-highlightColor = "#c22d30"
+	twitter_cards = false
+	images = ["images/landing-page-map-1.png"]
+	customCSS = ["css/custom.css"]
+	highlightColor = "#c22d30"
+	customJS = ["js/custom.js"]
+	enableGitInfo = true
 
 [Params.logo]
-title = "GARDENS of the ROMAN EMPIRE"
+	title = "GRE - TRAINING"
 
 [Params.sidebar]
 	home = "left" # Configure layout for home page
 	list = "left"  # Configure layout for list pages
 	single = "left" # Configure layout for single pages
 	# Enable widgets in given order
-	# widgets = ["search", "recent", "categories", "taglist", "social", "languages"]
-	widgets = ["search-lunr", "map", "provinces", "taglist"]
+	# widgets = ["search", "recent", "categories", "taglist"]
+	widgets = ["search-lunr", "map"]
 
 [Params.widgets]
-	recent_num = 2 # Set the number of articles in the "Recent articles" widget
-	tags_counter = true # Enable counter for each tag in "Tags" widget
+	# recent_num = 2 # Set the number of articles in the "Recent articles" widget
+	# tags_counter = true # Enable counter for each tag in "Tags" widget
+
+[markup]
+  defaultMarkdownHandler = 'goldmark'
+
+  [markup.goldmark.extensions]
+    typographer = false
+
+	[markup.goldmark.renderer]
+	  unsafe = true
+
+[frontmatter]
+  lastmod = ["modified",":fileModTime"]

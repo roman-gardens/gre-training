@@ -1,7 +1,8 @@
 ---
 title: "About"
-date: 2021-04-13T12:24:43+02:00
-editor: Christian Casey
+contributor: Christian Casey
+date: 2021-04-13
+modified: 2025-07-05
 draft: false
 ---
 
@@ -17,19 +18,19 @@ In the **next phase of development**, GRE is planning to add a glossary and them
 
 The **data structure and website** was designed by the [Library](https://isaw.nyu.edu/library) of the [Institute for the Study of the Ancient World](https://isaw.nyu.edu/), in consultation with [Sebastian Heath](https://isaw.nyu.edu/people/faculty/isaw-faculty/sebastian-heath), who suggested the basic strategy. **Christian Casey**, the [CLIR](https://www.clir.org/) postdoctoral fellow in the ISAW Library, elaborated and realized this strategic approach with significant contributions and a GIS map of the garden sites by [Keith Jenkins](https://guides.library.cornell.edu/prf.php?account_id=9255) of the [Cornell University Library](https://www.cornell.edu/academics/library.cfm). Substantial support over the years was also provided by: [Cornell University](https://archaeology.cornell.edu/gardens-roman-empire-project), [Archéologie & Philologie d’Orient et d’Occident, Centre national de la recherche scientifique](http://www.archeo.ens.psl.eu/), the [Cambridge University Press](https://www.cambridge.org/core/books/gardens-of-the-roman-empire/929D2F393E71CB9233AE3790C424EEF9), and [Dumbarton Oaks](https://www.doaks.org/research/garden-landscape/resources/doaks-garden-archaeology).
 
-GRE invites all scholars and the general public to explore the new beta site and provide us with constructive feedback as to how we may improve the site over the next year. New editorial teams are currently reaching out to archaeologists and scholars to solicit new information and newly discovered or described gardens. [Interested in contributing?]({{<ref "contribute/">}})
+GRE invites all scholars and the general public to explore the beta site and provide us with constructive feedback as to how we may improve the site. New editorial teams are currently reaching out to archaeologists and scholars to solicit new information and newly discovered or described gardens. [Interested in contributing?]({{<ref "contribute/">}})
 
 ## Data structure
 
-**The basic unit of the GRE is the “garden.”** This is to say that we have defined a template for the “garden” as an object, which is to data structures what genre is to literature. As such, the “garden” is an abstraction made up of a collection of stereotyped types and forms of data, or, one might say that it is a specific aggregation of metadata fields, like a bibliographic record. These fields are in turn themselves abstractions of the messy underlying reality of the excavated and attested gardens of the Roman Empire. So, for example, each garden has a unique ID, a title, a location, a description, maps, plans, bibliography, a date, an author, etc. This is, in essence, no different than how any corpus or collection is assembled (think of the metadata fields associated with catalogs of vases, coins, inscriptions, or manuscripts). Occasionally, we needed to modify or elaborate our basic template, as was the case in the gardens of Pompeii, where the geography is more fully articulated than in many other regions of the Roman world, e,g., with *regiones* and houses.
+**The basic unit of the GRE is the "garden."** This is to say that we have defined a template for the "garden" as an object, which is to data structures what genre is to literature. As such, the "garden" is an abstraction made up of a collection of stereotyped types and forms of data, or, one might say that it is a specific aggregation of metadata fields, like a bibliographic record. These fields are in turn themselves abstractions of the messy underlying reality of the excavated and attested gardens of the Roman Empire. So, for example, each garden has a unique ID, a title, a location, a description, maps, plans, bibliography, a date, an author, etc. This is, in essence, no different than how any corpus or collection is assembled (think of the metadata fields associated with catalogs of vases, coins, inscriptions, or manuscripts). Occasionally, we needed to modify or elaborate our basic template, as was the case in the gardens of Pompeii, where the geography is more fully articulated than in many other regions of the Roman world, e,g., with *regiones* and houses.
 
-**The best way to think of the GRE, in other words, is as a corpus of “gardens,” such that each identified garden of the Roman Empire has a unique record or file associated with it.** Thus, if a house in Pompeii or a tetrarchic palace in Thessaloniki has two or three gardens, there will be two or three records for that house or  palace, one for each garden, as opposed to one record for the house or palace that discusses all of the gardens together. The advantage of this approach is that one gains precision over gardens as an object of study. So, for example, each record has a stable, unique URL, which means that one can cite a specific garden and link to it with confidence. The price of this precision, however, is the loss of a synoptic or synthetic approach to how such gardens may have been experienced in relationship to each other (e.g., in a villa, a town, a region, a province, etc.). Like all corpora, synthesis is largely left to the reader and scholar.
+**The best way to think of the GRE, in other words, is as a corpus of "gardens," such that each identified garden of the Roman Empire has a unique record or file associated with it.** Thus, if a house in Pompeii or a tetrarchic palace in Thessaloniki has two or three gardens, there will be two or three records for that house or  palace, one for each garden, as opposed to one record for the house or palace that discusses all of the gardens together. The advantage of this approach is that one gains precision over gardens as an object of study. So, for example, each record has a stable, unique URL, which means that one can cite a specific garden and link to it with confidence. The price of this precision, however, is the loss of a synoptic or synthetic approach to how such gardens may have been experienced in relationship to each other (e.g., in a villa, a town, a region, a province, etc.). Like all corpora, synthesis is largely left to the reader and scholar.
 
-## Open linked data
+## Linked open data
 
-GRE adopts [open linked data](https://en.wikipedia.org/wiki/Linked_data#Linked_open_data) approaches whenever it can. All of the data associated with the GRE site is free and openly available to the public in our [github repository](https://github.com/roman-gardens/gre).
+GRE adopts [linked open data](https://en.wikipedia.org/wiki/Linked_data#Linked_open_data) approaches whenever it can. All of the data associated with the GRE site is free and openly available to the public in our [github repository](https://github.com/roman-gardens/gre).
 
-[more...]({{<ref "open-linked-data/">}})
+[more...]({{<ref "linked-open-data/">}})
 
 ## Rights
 

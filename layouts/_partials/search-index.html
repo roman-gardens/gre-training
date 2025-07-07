@@ -1,0 +1,38 @@
+<script>
+function smallcrumbs(dir) {
+	dir = dir.toLowerCase()
+	dir = dir.replace('/place/', '')
+	if (! dir) return
+
+	// replace underscores with spaces
+	dir = dir.replace(/_/g, ' ')
+
+	// capitalize each word
+	dir = dir.replace(/\b(\w)/g, x => x.toUpperCase())
+
+	// all caps for Roman numerals
+	dir = dir.replace(/\b[ivx]+\b/ig, x => x.toUpperCase())
+
+	return dir
+}
+
+// build the search index from each garden page
+window.store = {
+{{- range $ri, $rv := where .Site.Pages "Type" "garden" -}}
+	{{ if .Title }}
+	{{/* add path (province, location) and frontmatter (author, contributor) to fulltext */}}
+	{{ $location := title (replaceRE "[\\W_]+" " " .Path) }}
+	{{ $content := print .Plain $location " Author: " .Params.Author " Contributor: " .Params.Contributor " " }}
+"{{ $ri }}": {
+	"title": "{{ .Title }}",
+	"smallcrumbs": smallcrumbs("{{ path.Dir .Path }}"),
+	"content": {{ $content }},
+	"url": "{{ print .Site.BaseURL "id/" .Params.gre_id "/" }}",
+	"draft": {{ if .Draft }}true{{ else }}false{{ end }}
+},
+	{{- end -}}
+{{- end -}}
+}
+</script>
+<script src="{{ .Site.BaseURL }}js/lunr-2.3.9.min.js"></script>
+<script src="{{ .Site.BaseURL }}js/search.js"></script>

@@ -1,21 +1,45 @@
-function displayResults (results, store) {
+// custom code for displaying garden search results from Lunr
+function displayResults (qterms, results, store) {
   const searchResultsSummary = document.getElementById('search-results-summary')
   const searchResultsList = document.getElementById('search-results-list')
   if (results.length) {
-    searchResultsSummary.innerHTML = results.length + ' results found for <b>' + q + '</b>:'
+    searchResultsSummary.innerHTML = results.length + ' result' + (results.length == 1 ? '' : 's') + ' found for <em>' + q + '</em>:'
     let resultList = ''
     // Iterate and build result list elements
     for (const n in results) {
       const item = store[results[n].ref]
-
-      // linked title
-      resultList += '<li><b><a href="' + item.url + '">' + item.title + '</a></b>'
+      resultList += '<article class="list__item post">'
 
       // breadcrumbs
-      resultList += '<br><small>(' + item.breadcrumbs + ')</small>'
+      resultList += '<div class="smallcrumbs">' + item.smallcrumbs + '</div>'
 
-      // garden description snippet
-      resultList += '<br>' + item.content.replace(/^(.|\n)*Garden Description /, '').substring(0, 150) + '...</li>'
+      // linked title
+      resultList += '<h3 class="list__title post__title"><a href="' + item.url + '">' + item.title + '</a>' +
+       (item.draft? ' (DRAFT)' : '') + '</h3>'
+
+      // normalize diacritics for better snippet matching
+      let content = item.content.normalize("NFD").replace(/[\u0300-\u036f]/g, "")
+
+      // find text around first instance of first query term
+      let q1 = qterms[0].normalize("NFD").replace(/[\u0300-\u036f]/g, "")
+      // find singular even when query is plural
+      // TODO: can we use lunr's stemming?
+      q1 = q1.replace(/s$/, 's?')
+      let re = new RegExp(`^.*?(.{0,140})(${q1})(.{0,140}).*?$`, 'is')
+      // extract and highlight first term
+      let snippet = content.replace(re, '$1<em>$2</em>$3')
+      // highlight any other terms found within the snippet
+      if (qterms.length > 1) {
+        for (let i = 1 ; i < qterms.length; i++) {
+          let qi = qterms[i]
+          let re2 = new RegExp(`(${qi})`, 'i')
+          snippet = snippet.replace(re2, '<em>$1</em>')
+        }
+      }
+      snippet = '...' + snippet.replace(/^\w+|\w+$/g, '') + '...'
+      resultList += snippet
+
+      resultList += '</article>'
     }
     searchResultsList.innerHTML = resultList
   } else {
@@ -33,6 +57,9 @@ if (q) {
 
   // Retain the search input in the form when displaying results
   window.setTimeout((function(){document.getElementById('search-input').setAttribute('value', q)}), 500)
+  
+  // also split tokens on slash
+  lunr.tokenizer.separator = /[\s\-\/]+/
 
   const idx = lunr(function () {
     this.ref('id')
@@ -45,20 +72,23 @@ if (q) {
       this.add({
         id: key,
         title: window.store[key].title,
-        //tags: window.store[key].category,
-        content: window.store[key].content
+        content: window.store[key].content.normalize("NFD").replace(/[\u0300-\u036f]/g, "")
       })
     }
   })
 
   // Only return results that contain ALL query terms
-  qall = '+' + q.split(' ').join(' +')
+  let qterms = q.normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/\W+/g, ' ').trim().split(' ')
+  let qall = '+' + qterms.join(' +')
+
+  // remove some stopwords -- TODO: can lunr do this for us?
+  qall = q.replaceAll(/\s?\\+(at|in|of|the)/g, '')
 
   try {
     // Perform the search
     const results = idx.search(qall)
     // Update the list with results
-    displayResults(results, window.store)
+    displayResults(qterms, results, window.store)
   }
   catch {
     const searchResultsSummary = document.getElementById('search-results-summary')
