@@ -2,7 +2,7 @@
 gre_id: "5d8f30d0fd"
 aliases: [/id/5d8f30d0fd]
 type: place
-title: "Gallia_lugdunensis"
+title: "Gallia Lugdunensis"
 latlon: [ 0, 0 ]
 author: Author Name
 contributor: Contributor Name
@@ -11,8 +11,10 @@ modified: 2025-07-07
 draft: true
 ---
 
+<!--
 ## Dates
-<!-- For now, include dates exactly as written in the document. We will revisit the question of date formatting once more data have been collected.  If no date, use "unspecified" -->
+For now, include dates exactly as written in the document. We will revisit the question of date formatting once more data have been collected.  If no date, use "unspecified"
+-->
 
 ## Province Description
 <!-- This is the main text describing the province -->

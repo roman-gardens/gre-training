@@ -1,50 +1,37 @@
 ---
-gre_id: "8f3655468a"
-aliases: [/id/8f3655468a]
+gre_id: "41c1d3ea3c"
+aliases: [/id/41c1d3ea3c]
 type: place
-title: "Hispania_baetica"
-latlon: [ 0, 0 ]
-author: Author Name
-contributor: Contributor Name
-date: 2025-07-07
-modified: 2025-07-07
+title: "Hispania Baetica"
+latlon: [ 37.317026, -5.060833 ]
+author:
+contributor: Lai Ching Tsui
+date: 2021-04-21
+modified: 2025-06-29
 draft: true
 ---
 
-## Dates
-<!-- For now, include dates exactly as written in the document. We will revisit the question of date formatting once more data have been collected.  If no date, use "unspecified" -->
-
 ## Province Description
-<!-- This is the main text describing the province -->
 
-<!--
-## Maps
-{{< image file="filename.jpg" caption="" credit="" alt="" >}}
--->
+- The province of Hispania Ulterior Baetica adapted very quickly to Roman ways, given the cultural substratum that existed, for it was strongly influenced prior to the conquest by the Carthaginian culture. Today it occupies part of what is now Andalusia, Ciudad Real, and Badajoz. Outstanding in this region was its mineral wealth with several important areas such as [Castulo](https://pleiades.stoa.org/places/265855), the [Guadalquivir](link) River and the territory supplied Rome with oil for the annona (a tax paid with foodstuffs for the army), as shown by the number of amphorae of Dressel 20 type found in the [Testaccio](https://pleiades.stoa.org/places/375710890) hill in Rome.  But not only olives grew in Baetica; artichokes, mentioned by Pliny HN 19.152. as cultivated near [Cordoba](link), or or the figs referred to by Columella RR 11.2. 59-60 are among other crops from Baetica. The *ceteriae*, fish factories, were another source of wealth, as seen in the economic bases of the city of [Baelo Claudia](link) (Bolonia, Cádiz). Italica, reorganized by Hadrian in tribute to his ancestor, Trajan, who had been born there, is notable for its layout, equal in importance to the spectacular religious buildings of Munigua. [Corduba](link), the provincial capital, is remarkable for its wealth of monuments and was decorated with marble, with outstanding iconography on its provincial forum that like the other two capitals in the peninsula, imitated the sculptural groups, clipeos and caryatides, etc, of the [Forum Augustum](https://pleiades.stoa.org/places/47606496) in Rome.
 
-<!--
-## Plans
-{{< image file="filename.jpg" caption="" credit="" alt="" >}}
--->
+<!-- ## Maps -->
 
-<!--
-## Images
-{{< image file="filename.jpg" caption="" credit="" alt="" >}}
--->
+<!-- ## Images -->
 
-<!--
+<!-- ## Dates -->
+
 ## Bibliography
-- BIB_ENTRY [(worldcat)](WORLDCAT_LINK_URL)
--->
 
-<!--
-## Keywords
-- {{< keyword "Example keyword" >}}
--->
+* M. Bendala,'De la Protohistoria a la Conquista Romana',*Historia General de España y América*, vol. 1, 2, (Madrid 1981-1992) 569-593. [(worldcat)](https://search.worldcat.org/title/506194962)
+* J. Mª Blázquez, J. Remesal and E. Rodríguez,*Excavaciones arqueológicas en el Monte Testaccio, Roma : memoria campaña 1989*, Informes Arqueológicos, Ministerio de Cultura, (Madrid 1994). [(worldcat)](https://search.worldcat.org/title/506194962)
+* CL. Domergue, 'Les mines de la Péninsule Ibérique dans l'Antiquité romaine,' *Collection de l'École Française de Rome, 127*, (Roma 1990). [(worldcat)](https://search.worldcat.org/title/1039552105)
+* W. Trillmich, 'Las ciudades hispanorromanas: reflejos de las metropolis,' *Hispania : el legado de Roma : Museo Nacional de arte Romano-Mérida, febrero-abril de 1999*, Ministerio de Educación y Cultura, (Madrid 1999), 183-196. [(worldcat)](https://search.worldcat.org/title/66909836)
 
-<!--
 ## Places
-places containing this garden will be listed automatically
-- {{< id vocab="Pleiades" id="" name="" >}}
-- {{< id vocab="TGN" id="" name="" >}}
--->
+
+- {{< id vocab="Pleiades" id="862" name="Baetica" >}}
+- {{< id vocab="TGN" id="6000567" name="Baetica (province)" >}}
+- {{< id vocab="Pleiades" id="195101632" name="Andalusia" >}}
+- Ciudad Real
+- {{< id vocab="Pleiades" id="931117398" name="Badajoz" >}}

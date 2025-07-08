@@ -5,17 +5,20 @@ type: place
 title: "Italia"
 latlon: [ 0, 0 ]
 author: Author Name
-contributor: Contributor Name
+contributor: Rhiannon Paré
 date: 2025-07-07
 modified: 2025-07-07
 draft: false
 ---
 
+<!--
 ## Dates
-<!-- For now, include dates exactly as written in the document. We will revisit the question of date formatting once more data have been collected.  If no date, use "unspecified" -->
+For now, include dates exactly as written in the document. We will revisit the question of date formatting once more data have been collected.  If no date, use "unspecified"
+-->
 
 ## Province Description
-<!-- This is the main text describing the province -->
+
+Italia was not considered a province until the reign of Diocletian. The peninsula, however, was divided into administrative regions by Augustus around 7 BCE, according to Pliny's *Naturalis Historia*.
 
 <!--
 ## Maps

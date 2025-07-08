@@ -2,7 +2,7 @@
 gre_id: "adc8c150d5"
 aliases: [/id/adc8c150d5]
 type: place
-title: "Hispania_tarraconensis"
+title: "Hispania Tarraconensis"
 latlon: [ 0, 0 ]
 author: Author Name
 contributor: Contributor Name
@@ -11,8 +11,10 @@ modified: 2025-07-07
 draft: true
 ---
 
+<!--
 ## Dates
-<!-- For now, include dates exactly as written in the document. We will revisit the question of date formatting once more data have been collected.  If no date, use "unspecified" -->
+For now, include dates exactly as written in the document. We will revisit the question of date formatting once more data have been collected.  If no date, use "unspecified"
+-->
 
 ## Province Description
 <!-- This is the main text describing the province -->

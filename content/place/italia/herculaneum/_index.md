@@ -11,11 +11,14 @@ modified: 2025-07-07
 draft: false
 ---
 
+<!--
 ## Dates
-<!-- For now, include dates exactly as written in the document. We will revisit the question of date formatting once more data have been collected.  If no date, use "unspecified" -->
+<!-- For now, include dates exactly as written in the document. We will revisit the question of date formatting once more data have been collected.  If no date, use "unspecified"
+-->
 
 ## Place Description
-<!-- This is the main text describing the province -->
+
+An ancient Roman town of Campania destroyed by the eruption of Mt. Vesuvius in A.D.79. Named as a UNESCO World Heritage Site in 1997.
 
 <!--
 ## Maps

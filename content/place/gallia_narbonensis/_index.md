@@ -2,7 +2,7 @@
 gre_id: "d726a57eb8"
 aliases: [/id/d726a57eb8]
 type: place
-title: "Gallia_narbonensis"
+title: "Gallia Narbonensis"
 latlon: [ 0, 0 ]
 author: Author Name
 contributor: Contributor Name
@@ -11,11 +11,14 @@ modified: 2025-07-07
 draft: true
 ---
 
+<!--
 ## Dates
-<!-- For now, include dates exactly as written in the document. We will revisit the question of date formatting once more data have been collected.  If no date, use "unspecified" -->
+For now, include dates exactly as written in the document. We will revisit the question of date formatting once more data have been collected.  If no date, use "unspecified"
+-->
 
 ## Province Description
-<!-- This is the main text describing the province -->
+
+Ancient Roman colony (founded 118 BCE) and senatorial province located in modern southern France, along the Mediterranean. This province had stronger cultural and political ties to Italy than the rest of Gaul.
 
 <!--
 ## Maps
@@ -42,9 +45,8 @@ draft: true
 - {{< keyword "Example keyword" >}}
 -->
 
-<!--
+
 ## Places
-places containing this garden will be listed automatically
-- {{< id vocab="Pleiades" id="" name="" >}}
-- {{< id vocab="TGN" id="" name="" >}}
--->
+
+- {{< id vocab="Pleiades" id="981537" name="Gallia Narbonensis" >}}
+- {{< id vocab="TGN" id="7030317" name="Gallia Narbonensis (province)" >}}
