@@ -1,8 +1,8 @@
 ---
-gre_id: "934a73b6ab"
+gre_id: 934a73b6ab
 aliases: [/id/934a73b6ab]
 type: garden
-title: "Sanctuary"
+title: Sanctuary
 latlon: [ 37.713343, -5.740734 ]
 author:
 contributor: Lai Ching Tsui

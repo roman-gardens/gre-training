@@ -1,8 +1,8 @@
 ---
-gre_id: "c4de63c41a"
+gre_id: c4de63c41a
 aliases: [/id/c4de63c41a]
 type: garden
-title: "House of the Triclinium"
+title: House of the Triclinium
 latlon: [ 0, 0 ]
 author:
 contributor: Lai Ching Tsui

@@ -1,8 +1,8 @@
 ---
-gre_id: "cbc00aa8f3"
+gre_id: cbc00aa8f3
 aliases: [/id/cbc00aa8f3]
 type: garden
-title: "Public Square"
+title: Public Square
 latlon: [ 0, 0 ]
 author:
 contributor: Lai Ching Tsui

@@ -1,8 +1,8 @@
 ---
-gre_id: "c72ff9e782"
+gre_id: c72ff9e782
 aliases: [/id/c72ff9e782]
 type: garden
-title: "theaters"
+title: theaters
 latlon: [ 0, 0 ]
 author:
 contributor: Lai Ching Tsui

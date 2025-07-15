@@ -1,8 +1,8 @@
 ---
-gre_id: "e0571e8970"
+gre_id: e0571e8970
 aliases: [/id/e0571e8970]
 type: garden
-title: "Villa el Ruedo"
+title: Villa el Ruedo
 latlon: [ 37.443110, -4.089429 ]
 author: Clopper Almon, D. Vaquerizo
 contributor: Lai Ching Tsui

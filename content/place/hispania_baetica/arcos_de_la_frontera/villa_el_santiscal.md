@@ -1,8 +1,8 @@
 ---
-gre_id: "20d40b673f"
+gre_id: 20d40b673f
 aliases: [/id/20d40b673f]
 type: garden
-title: "Villa el Santiscal"
+title: Villa el Santiscal
 latlon: [ 36.765569, -5.771836 ]
 author: Marguerita Orfila, N. Doenges
 contributor: Lai Ching Tsui

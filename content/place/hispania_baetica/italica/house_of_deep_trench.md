@@ -1,8 +1,8 @@
 ---
-gre_id: "8dbbeb7015"
+gre_id: 8dbbeb7015
 aliases: [/id/8dbbeb7015]
 type: garden
-title: "House of the Deep Trench"
+title: House of the Deep Trench
 latlon: [ 0, 0 ]
 author:
 contributor: Lai Ching Tsui

@@ -1,8 +1,8 @@
 ---
-gre_id: "d9d49da85e"
+gre_id: d9d49da85e
 aliases: [/id/d9d49da85e]
 type: garden
-title: "House of Hylas"
+title: House of Hylas
 latlon: [ 0, 0 ]
 author:
 contributor: Lai Ching Tsui

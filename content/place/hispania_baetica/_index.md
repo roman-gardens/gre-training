@@ -1,8 +1,8 @@
 ---
-gre_id: "41c1d3ea3c"
+gre_id: 41c1d3ea3c
 aliases: [/id/41c1d3ea3c]
 type: place
-title: "Hispania Baetica"
+title: Hispania Baetica
 latlon: [ 37.317026, -5.060833 ]
 author:
 contributor: Lai Ching Tsui

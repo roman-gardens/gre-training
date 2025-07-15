@@ -1,8 +1,8 @@
 ---
-gre_id: "80f99c3405"
+gre_id: 80f99c3405
 aliases: [/id/80f99c3405]
 type: garden
-title: "Villa"
+title: Villa
 latlon: [ 0, 0 ]
 author:
 contributor: Lai Ching Tsui

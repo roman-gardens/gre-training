@@ -1,8 +1,8 @@
 ---
-gre_id: "5f7b056781"
+gre_id: 5f7b056781
 aliases: [/id/5f7b056781]
 type: garden
-title: "Funerary Grove of T. Aemilius Vetus"
+title: Funerary Grove of T. Aemilius Vetus
 latlon: [ 0, 0 ]
 author: John Bodel
 contributor: Lai Ching Tsui

@@ -1,8 +1,8 @@
 ---
-gre_id: "73d1a43068"
+gre_id: 73d1a43068
 aliases: [/id/73d1a43068]
 type: garden
-title: "House of the Birds"
+title: House of the Birds
 latlon: [ 0, 0 ]
 author:
 contributor: Lai Ching Tsui

@@ -1,8 +1,8 @@
 ---
-gre_id: "88c343cdb1"
+gre_id: 88c343cdb1
 aliases: [/id/88c343cdb1]
 type: garden
-title: "Collegium"
+title: Collegium
 latlon: [ 0, 0 ]
 author:
 contributor: Lai Ching Tsui
