@@ -1,8 +1,8 @@
 ---
-gre_id: "857e5462b7"
+gre_id: 857e5462b7
 aliases: [/id/857e5462b7]
 type: garden
-title: "House of the Silver Bust, La Vilasse Quarter"
+title: House of the Silver Bust, La Vilasse Quarter
 latlon: [ 42.439512, 3.176623 ]
 author: Eric Morvillez, Emilie Chassillan
 contributor: Yichen Liu

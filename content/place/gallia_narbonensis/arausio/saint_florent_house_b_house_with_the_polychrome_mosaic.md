@@ -1,8 +1,8 @@
 ---
-gre_id: "733527f657"
+gre_id: 733527f657
 aliases: [/id/733527f657]
 type: garden
-title: "Saint-Florent, House B, House with the Polychrome Mosaic"
+title: Saint-Florent, House B, House with the Polychrome Mosaic
 latlon: [ 42.439512, 3.176623 ]
 author: Eric Morvillez, Emilie Chassillan
 contributor: Yichen Liu

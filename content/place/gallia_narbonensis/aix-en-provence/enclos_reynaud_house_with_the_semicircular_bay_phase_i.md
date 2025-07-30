@@ -1,8 +1,8 @@
 ---
-gre_id: "d374ef4670"
+gre_id: d374ef4670
 aliases: [/id/d374ef4670]
 type: garden
-title: "NAR 6.4 Enclos Reynaud, House with the semicircular bay, phase I"
+title: NAR 6.4 Enclos Reynaud, House with the semicircular bay, phase I
 latlon: [ 42.439512, 3.176623 ]
 author: Eric Morvillez, Emilie Chassillan
 contributor: Yichen Liu

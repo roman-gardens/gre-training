@@ -1,8 +1,8 @@
 ---
-gre_id: "42b3b5cb9c"
+gre_id: 42b3b5cb9c
 aliases: [/id/42b3b5cb9c]
 type: garden
-title: "Domus de La Marseillaise"
+title: Domus de La Marseillaise
 latlon: [ 42.439512, 3.176623 ]
 author: Eric Morvillez, Emilie Chassillan
 contributor: Yichen Liu

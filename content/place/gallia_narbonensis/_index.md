@@ -1,8 +1,8 @@
 ---
-gre_id: "d726a57eb8"
+gre_id: d726a57eb8
 aliases: [/id/d726a57eb8]
 type: place
-title: "Gallia Narbonensis"
+title: Gallia Narbonensis
 latlon: [ 0, 0 ]
 author: Author Name
 contributor: Contributor Name

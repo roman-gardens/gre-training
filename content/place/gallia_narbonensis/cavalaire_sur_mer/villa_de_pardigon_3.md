@@ -1,8 +1,8 @@
 ---
-gre_id: "b6cf9711e6"
+gre_id: b6cf9711e6
 aliases: [/id/b6cf9711e6]
 type: garden
-title: "Villa de Pardigon 3"
+title: Villa de Pardigon 3
 latlon: [ 42.439512, 3.176623 ]
 author: Eric Morvillez, Emilie Chassillan
 contributor: Yichen Liu

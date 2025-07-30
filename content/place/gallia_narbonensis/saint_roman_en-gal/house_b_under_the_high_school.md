@@ -1,8 +1,8 @@
 ---
-gre_id: "a52615cbde"
+gre_id: a52615cbde
 aliases: [/id/a52615cbde]
 type: garden
-title: "La Plaine, House A under the High School"
+title: La Plaine, House A under the High School
 latlon: [ 42.439512, 3.176623 ]
 author: Eric Morvillez, Emilie Chassillan
 contributor: Yichen Liu
@@ -43,7 +43,7 @@ La Plaine, House B under the High School
 
 ## Plans
 
-{{< image file="house_b_under_the_high_school.png" caption="Plan of La Plaine, House B under the High School" credit="" alt="Plan of House B under the High School" >}}
+{{< image file="house_b_under_the_high_school.png" caption="Plan of La Plaine, House B under the High School" credit="" alt="" >}}
 
 
 <!-- ## Images -->

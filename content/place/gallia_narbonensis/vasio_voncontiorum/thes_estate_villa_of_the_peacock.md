@@ -1,8 +1,8 @@
 ---
-gre_id: "18d2d716ed"
+gre_id: 18d2d716ed
 aliases: [/id/18d2d716ed]
 type: garden
-title: "Thès estate, villa of the Peacock"
+title: Thès estate, villa of the Peacock
 latlon: [ 42.439512, 3.176623 ]
 author: Eric Morvillez, Emilie Chassillan
 contributor: Yichen Liu

@@ -1,8 +1,8 @@
 ---
-gre_id: "93783c8ff0"
+gre_id: 93783c8ff0
 aliases: [/id/93783c8ff0]
 type: garden
-title: "Aix, Jardins de Grassi, House with the large peristyle"
+title: Aix, Jardins de Grassi, House with the large peristyle
 latlon: [ 42.439512, 3.176623 ]
 author: Eric Morvillez, Emilie Chassillan
 contributor: Yichen Liu

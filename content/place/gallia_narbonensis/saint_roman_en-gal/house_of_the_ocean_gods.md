@@ -1,8 +1,8 @@
 ---
-gre_id: "c8e6b21444"
+gre_id: c8e6b21444
 aliases: [/id/c8e6b21444]
 type: garden
-title: "House of the Ocean Gods"
+title: House of the Ocean Gods
 latlon: [ 42.439512, 3.176623 ]
 author: Eric Morvillez, Emilie Chassillan
 contributor: Yichen Liu

@@ -1,8 +1,8 @@
 ---
-gre_id: "7e77e960b0"
+gre_id: 7e77e960b0
 aliases: [/id/7e77e960b0]
 type: garden
-title: "House of the Cistern"
+title: House of the Cistern
 latlon: [ 42.439512, 3.176623 ]
 author: Eric Morvillez, Emilie Chassillan
 contributor: Yichen Liu

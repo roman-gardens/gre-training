@@ -1,8 +1,8 @@
 ---
-gre_id: "efd6c707c3"
+gre_id: efd6c707c3
 aliases: [/id/efd6c707c3]
 type: garden
-title: "House I, Quartier de la Verrerie at Trinquetaille"
+title: House I, Quartier de la Verrerie at Trinquetaille
 latlon: [ 43.677616, 4.630799 ]
 author: Eric Morvillez, Emilie Chassillan
 contributor: Yichen Liu

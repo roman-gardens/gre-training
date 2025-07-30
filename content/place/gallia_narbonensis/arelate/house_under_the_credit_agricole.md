@@ -1,8 +1,8 @@
 ---
-gre_id: "c0e1622827"
+gre_id: c0e1622827
 aliases: [/id/c0e1622827]
 type: garden
-title: "House under the Crédit Agricole"
+title: House under the Crédit Agricole
 latlon: [ 43.604175, 1.443246 ]
 author: Eric Morvillez, Emilie Chassillan
 contributor: Yichen Liu

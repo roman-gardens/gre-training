@@ -1,8 +1,8 @@
 ---
-gre_id: "e735f72800"
+gre_id: e735f72800
 aliases: [/id/e735f72800]
 type: garden
-title: "Villa de Muscapeu"
+title: Villa de Muscapeu
 latlon: [ 43.407853, 5.923999 ]
 author: Eric Morvillez, Emilie Chassillan
 contributor: Yichen Liu

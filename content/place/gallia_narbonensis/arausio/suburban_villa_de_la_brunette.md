@@ -1,8 +1,8 @@
 ---
-gre_id: "ed49355a9e"
+gre_id: ed49355a9e
 aliases: [/id/ed49355a9e]
 type: garden
-title: "Suburban Villa de la  Brunette"
+title: Suburban Villa de la  Brunette
 latlon: [ 42.439512, 3.176623 ]
 author: Eric Morvillez, Emilie Chassillan
 contributor: Yichen Liu

@@ -1,8 +1,8 @@
 ---
-gre_id: "fbdca9a4f2"
+gre_id: fbdca9a4f2
 aliases: [/id/fbdca9a4f2]
 type: garden
-title: "21, rue Séguier, An Agricultural Establishment"
+title: 21, rue Séguier, An Agricultural Establishment
 latlon: [ 42.439512, 3.176623 ]
 author: Eric Morvillez, Emilie Chassillan
 contributor: Yichen Liu
@@ -47,9 +47,9 @@ In the central part of the courtyard were found a series of horticultural pots, 
 
 ## Plans
 
-{{< image file="21_rue_seguier_an_agricultural_establishment_1.png" caption="Fig. 1 Plan of 21, rue Séguier, An Agricultural Establishment" credit="" alt="Plan of 21, rue Séguier, An Agricultural Establishment" >}}
+{{< image file="21_rue_seguier_an_agricultural_establishment_1.png" caption="Fig. 1 Plan of 21, rue Séguier, An Agricultural Establishment" credit="" alt="" >}}
 
-{{< image file="21_rue_seguier_an_agricultural_establishment_2.png" caption="Fig. 2 Detail plan of 21, rue Séguier, An Agricultural Establishment" credit="" alt="Detail plan of 21, rue Séguier, An Agricultural Establishment" >}}
+{{< image file="21_rue_seguier_an_agricultural_establishment_2.png" caption="Fig. 2 Detail plan of 21, rue Séguier, An Agricultural Establishment" credit="" alt="" >}}
 
 ## Dates
 

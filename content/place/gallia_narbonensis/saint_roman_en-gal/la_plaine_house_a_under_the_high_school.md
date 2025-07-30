@@ -1,8 +1,8 @@
 ---
-gre_id: "4f27e20214"
+gre_id: 4f27e20214
 aliases: [/id/4f27e20214]
 type: garden
-title: "La Plaine, House A under the High School"
+title: La Plaine, House A under the High School
 latlon: [ 42.439512, 3.176623 ]
 author: Eric Morvillez, Emilie Chassillan
 contributor: Yichen Liu

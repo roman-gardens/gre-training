@@ -1,8 +1,8 @@
 ---
-gre_id: "2b2200091a"
+gre_id: 2b2200091a
 aliases: [/id/2b2200091a]
 type: garden
-title: "House of Vestibule with Columns"
+title: House of Vestibule with Columns
 latlon: [ 42.439512, 3.176623 ]
 author: Eric Morvillez, Emilie Chassillan
 contributor: Yichen Liu
@@ -58,7 +58,7 @@ Phase III, from around the end of the first century, carried the ideas of Phase 
 
 ## Plans
 
-NEW WAY ↓↓{{< image file="house_of_vestibule_with_columns_phase_1.png" caption="plan of House of Vestibule with Columns" credit="" alt="Plang of House of Vestibule with Columns " >}}
+NEW WAY ↓↓{{< image file="house_of_vestibule_with_columns_phase_1.png" caption="plan of House of Vestibule with Columns" credit="" alt="" >}}
 
 ## Dates
 

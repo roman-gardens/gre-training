@@ -1,8 +1,8 @@
 ---
-gre_id: "2485830a93"
+gre_id: 2485830a93
 aliases: [/id/2485830a93]
 type: garden
-title: "The House of the Lion"
+title: The House of the Lion
 latlon: [ 42.439512, 3.176623 ]
 author: Eric Morvillez, Emilie Chassillan
 contributor: Yichen Liu

@@ -1,8 +1,8 @@
 ---
-gre_id: "38533683a4"
+gre_id: 38533683a4
 aliases: [/id/38533683a4]
 type: garden
-title: "Various oscilla"
+title: Various oscilla
 latlon: [ 42.439512, 3.176623 ]
 author: Eric Morvillez, Emilie Chassillan
 contributor: Yichen Liu

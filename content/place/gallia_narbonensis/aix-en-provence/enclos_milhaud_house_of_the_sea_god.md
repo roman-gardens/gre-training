@@ -1,8 +1,8 @@
 ---
-gre_id: "8359f0ebbc"
-aliases: [/id/8359f0ebbc]
+gre_id: 754214bc20
+aliases: [/id/754214bc20]
 type: garden
-title: "Enclos Milhaud, House with the large peristyle"
+title: Enclos Milhaud, House of the Sea god
 latlon: [ 42.439512, 3.176623 ]
 author: Eric Morvillez, Emilie Chassillan
 contributor: Yichen Liu
@@ -27,35 +27,29 @@ Ancient Roman colony (founded 118 BCE) and senatorial province located in modern
 
 ## Sublocation
 
-[Enclos Milhaud, House with the large peristyle](#)
+[Enclos Milhaud, House of the Sea god](#)
 
 ## House
 
-Enclos Milhaud, House with the large peristyle
+Enclos Milhaud, House of the Sea god
 
 <!-- ## Keywords -->
 
 ## House Description
 
 fiche not translated
-
 <!-- ## Maps -->
 
 ## Plans
 
-{{< image file="enclos_milhaud_house_with_the_large_peristyle.png" caption="Fig.1 Enclos Milhaud, House with the large peristyle" credit="" alt="Plan of the House with the Large Peristyle" >}}
+{{< image file="enclos_milhaud_house_of_the_sea_god.png" caption="Enclos Milhaud, House of the Sea god" credit="" alt="Plan of House of the Sea god" >}}
 
 
 <!-- ## Images -->
 
 <!-- ## Dates -->
 
-## Bibliography
-
-1. *Maison 1996*, t. II,, P. 32-33
-
-
-2.  "Aix-en-Provence,"*Atlas*, P. 62-4, 71.
+<!-- ## Bibliography -->
 
 ## Places
 

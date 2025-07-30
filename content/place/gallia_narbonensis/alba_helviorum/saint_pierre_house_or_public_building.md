@@ -1,8 +1,8 @@
 ---
-gre_id: "54bd63c9c3"
+gre_id: 54bd63c9c3
 aliases: [/id/54bd63c9c3]
 type: garden
-title: "Saint-Pierre, House or Public Building"
+title: Saint-Pierre, House or Public Building
 latlon: [ 42.439512, 3.176623 ]
 author: Eric Morvillez, Emilie Chassillan
 contributor: Yichen Liu
@@ -47,7 +47,7 @@ The western wing, of which 30 m is known, has rooms richly decorated with marble
 
 ## Plans
 
-{{< image file="saint_pierre_house_or_public_building.png" caption="Fig.1 Plan of Saint-Pierre, House or Public Building" credit="" alt="Plan of Saint-Pierre, House or Public Building" >}}
+{{< image file="saint_pierre_house_or_public_building.png" caption="Fig.1 Plan of Saint-Pierre, House or Public Building" credit="" alt="" >}}
 
 <!-- ## Dates -->
 

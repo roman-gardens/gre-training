@@ -1,8 +1,8 @@
 ---
-gre_id: "0b3a89deb8"
+gre_id: 0b3a89deb8
 aliases: [/id/0b3a89deb8]
 type: garden
-title: "Quarter of Saint-Florent, House A – House of the Mosaic with Meanders"
+title: Quarter of Saint-Florent, House A - House of the Mosaic with Meanders
 latlon: [ 42.439512, 3.176623 ]
 author: Eric Morvillez, Emilie Chassillan
 contributor: Yichen Liu

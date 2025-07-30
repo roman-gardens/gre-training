@@ -1,8 +1,8 @@
 ---
-gre_id: "069554cb8e"
+gre_id: 069554cb8e
 aliases: [/id/069554cb8e]
 type: garden
-title: "Villa de Saint-Symphorien"
+title: Villa de Saint-Symphorien
 latlon: [ 42.439512, 3.176623 ]
 author: Eric Morvillez, Emilie Chassillan
 contributor: Yichen Liu

@@ -1,8 +1,8 @@
 ---
-gre_id: "c3a82d026a"
+gre_id: c3a82d026a
 aliases: [/id/c3a82d026a]
 type: garden
-title: "Villa des Baumelles"
+title: Villa des Baumelles
 latlon: [ 42.439512, 3.176623 ]
 author: Eric Morvillez, Emilie Chassillan
 contributor: Yichen Liu

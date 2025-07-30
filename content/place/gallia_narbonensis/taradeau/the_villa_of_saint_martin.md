@@ -1,8 +1,8 @@
 ---
-gre_id: "b72e648637"
+gre_id: b72e648637
 aliases: [/id/b72e648637]
 type: garden
-title: "The villa of Saint Martin"
+title: The villa of Saint Martin
 latlon: [ 43.454598, 6.437904 ]
 author: Eric Morvillez, Emilie Chassillan
 contributor: Yichen Liu

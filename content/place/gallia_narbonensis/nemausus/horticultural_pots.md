@@ -1,8 +1,8 @@
 ---
-gre_id: "1c6fcfd3a1"
+gre_id: 1c6fcfd3a1
 aliases: [/id/1c6fcfd3a1]
 type: garden
-title: "Horticultural pots"
+title: Horticultural pots
 latlon: [ 42.439512, 3.176623 ]
 author: Eric Morvillez, Emilie Chassillan
 contributor: Yichen Liu

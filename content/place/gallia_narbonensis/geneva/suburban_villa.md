@@ -1,8 +1,8 @@
 ---
-gre_id: "db811e8298"
+gre_id: db811e8298
 aliases: [/id/db811e8298]
 type: garden
-title: "Suburban Villa"
+title: Suburban Villa
 latlon: [ 46.201961, 6.143798 ]
 author: Eric Morvillez
 contributor: Yvette Pollack

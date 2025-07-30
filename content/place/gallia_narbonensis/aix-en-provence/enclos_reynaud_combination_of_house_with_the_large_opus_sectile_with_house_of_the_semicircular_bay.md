@@ -1,8 +1,8 @@
 ---
-gre_id: "abeab7d464"
+gre_id: abeab7d464
 aliases: [/id/abeab7d464]
 type: garden
-title: "Enclos Reynaud, Combination of House with the large opus sectile with House of the semicircular bay"
+title: Enclos Reynaud, Combination of House with the large opus sectile with House of the semicircular bay
 latlon: [ 42.439512, 3.176623 ]
 author: Eric Morvillez, Emilie Chassillan
 contributor: Yichen Liu

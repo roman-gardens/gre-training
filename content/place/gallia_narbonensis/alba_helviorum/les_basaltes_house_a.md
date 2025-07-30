@@ -1,8 +1,8 @@
 ---
-gre_id: "57c4491e97"
+gre_id: 57c4491e97
 aliases: [/id/57c4491e97]
 type: garden
-title: "Les Basaltes, House A"
+title: Les Basaltes, House A
 latlon: [ 42.439512, 3.176623 ]
 author: Eric Morvillez, Emilie Chassillan
 contributor: Yichen Liu

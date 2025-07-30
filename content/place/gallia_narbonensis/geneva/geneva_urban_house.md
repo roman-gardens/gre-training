@@ -1,8 +1,8 @@
 ---
-gre_id: "15b63838f2"
+gre_id: 15b63838f2
 aliases: [/id/15b63838f2]
 type: garden
-title: "Urban House"
+title: Urban House
 latlon: [ 46.201961, 6.143798 ]
 author: Eric Morvillez
 contributor: Yvette Pollack

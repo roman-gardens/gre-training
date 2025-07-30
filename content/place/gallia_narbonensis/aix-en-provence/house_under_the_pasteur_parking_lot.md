@@ -1,8 +1,8 @@
 ---
-gre_id: "2d0b7b3d1e"
+gre_id: 2d0b7b3d1e
 aliases: [/id/2d0b7b3d1e]
 type: garden
-title: "House under the Pasteur parking lot"
+title: House under the Pasteur parking lot
 latlon: [ 42.439512, 3.176623 ]
 author: Eric Morvillez, Emilie Chassillan
 contributor: Yichen Liu

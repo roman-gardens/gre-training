@@ -1,8 +1,8 @@
 ---
-gre_id: "e828f23809"
+gre_id: e828f23809
 aliases: [/id/e828f23809]
 type: garden
-title: "Puymin Quarter,Sanctuary with Portico's,Formerly called Pompey's Portico"
+title: Puymin Quarter,Sanctuary with Portico's,Formerly called Pompey's Portico
 latlon: [ 42.439512, 3.176623 ]
 author: Eric Morvillez, Emilie Chassillan
 contributor: Yichen Liu

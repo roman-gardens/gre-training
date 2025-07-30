@@ -1,8 +1,8 @@
 ---
-gre_id: "b6f1f6afd8"
-aliases: [/id/b6f1f6afd8]
+gre_id: 8359f0ebbc
+aliases: [/id/8359f0ebbc]
 type: garden
-title: "Enclos Reynaud, House of the pool with apses"
+title: Enclos Milhaud, House with the large peristyle
 latlon: [ 42.439512, 3.176623 ]
 author: Eric Morvillez, Emilie Chassillan
 contributor: Yichen Liu
@@ -27,26 +27,23 @@ Ancient Roman colony (founded 118 BCE) and senatorial province located in modern
 
 ## Sublocation
 
-[Enclos Reynaud, House of the pool with apses](#)
+[Enclos Milhaud, House with the large peristyle](#)
 
 ## House
 
-Enclos Reynaud, House of the pool with apses
+Enclos Milhaud, House with the large peristyle
 
-## Keywords
-
-- {{< keyword "peristyles" >}}
-- {{< keyword "courtyards" >}}
+<!-- ## Keywords -->
 
 ## House Description
 
-According to a partial plan, the residence was organized around a large courtyard with peristyle [1] (14.5 x 8.0 m). Although covered with paving stones in the final phase, the courtyard may have been a garden in an earlier phase, for it had a pool in the center. This pool of an unusal, quadrilobe shape, was 9 meters long and covered in gray marble. This marble was reduced practically to chalk when the house burned. The pool was then used as a dump and was found filled with materials from the time of the invasions.
+fiche not translated
 
 <!-- ## Maps -->
 
 ## Plans
 
-{{< image file="enclos_reynaud_house_of_the_pool_with_apses.png" caption="Enclos Reynaud,House of the pool with apses" credit="" alt="Plan of the House of the Pool with Apses" >}}
+{{< image file="enclos_milhaud_house_with_the_large_peristyle.png" caption="Fig.1 Enclos Milhaud, House with the large peristyle" credit="" alt="Plan of the House with the Large Peristyle" >}}
 
 
 <!-- ## Images -->
